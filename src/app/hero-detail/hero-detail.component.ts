@@ -27,4 +27,8 @@ export class HeroDetailComponent implements OnInit {
       .subscribe(h => this.hero = h);
   }
 
+  goBack(): void{
+    this.location.back();
+  }
+
 }

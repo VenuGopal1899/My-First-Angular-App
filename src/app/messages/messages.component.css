@@ -1,6 +1,5 @@
 .messages{
-    border: 1px solid white;
-    margin: 200px 0px 10px 0px;
+    margin: -30px 900px 10px 0px;
 }
 
 h2{
@@ -9,13 +8,15 @@ h2{
     font-size: 30px;
 }
 
-.clear{
+button{
     position: relative;
-    color: red;
-    background-color: white;
-    text-align: center;
-    font-size: 20px;
-    margin: -200px 0px 5px 4px;
+    justify-content: center;
+    background-color: rgb(92, 6, 92);
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    margin: -25px 0px 9px 4px;
+
 }
 .notifications{
     margin: 2px 5px 7px 10px;
