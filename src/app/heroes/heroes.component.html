@@ -1,11 +1,10 @@
 <h1>Heroes List</h1>
 <div>
     <ul class="heroes">
-        <li
-        *ngFor = "let h of heroes"
-        [class.selected]="h === selectedHero"
-        (click) = "onSelect(h)">
-        {{h.name}}</li>
+        <li *ngFor = "let h of heroes">
+            <a routerLink = "/detail/{{h.id}}">
+                {{h.name}}
+            </a>
+        </li>
     </ul>
 </div>
-<app-hero-detail [hero] = "selectedHero"></app-hero-detail>

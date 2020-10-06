@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(226, 25, 125);
+    color: rgb(92, 6, 92);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
     text-align: center;
@@ -17,6 +17,21 @@ body, input[type="text"], button {
     font-family: Cambria, Georgia;
 }
 
+a{
+    justify-content: center;
+    background-color: rgb(92, 6, 92);
+    color: #fff;
+    padding: 9px;
+    font-size: 22px;
+    text-decoration: none !important;
+    margin-right: 15px;
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.active-link{
+    background-color: rgb(17, 115, 207);
+    color: white;
 }
