@@ -1,0 +1,24 @@
+li {
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid pink;
+    margin: 10px 570px 10px 540px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+li:hover {
+    background-color: rgb(229, 132, 181);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color:  rgb(226, 25, 125);
+    font-size: 36px;
+}
+
+.selected{
+    color: white;
+    background-color: rgb(226, 25, 125);
+}

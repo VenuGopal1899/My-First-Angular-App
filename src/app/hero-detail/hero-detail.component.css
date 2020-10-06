@@ -1,0 +1,14 @@
+.details{
+    margin: -300px 900px 0px 20px;
+}
+
+h2{
+    color:  rgb(226, 25, 125);
+    margin-left: 29px;
+}
+
+.input, span{
+    margin-left: 30px;
+    font: 18px;
+}
+
